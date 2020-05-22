@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HABITAT HORIZONTAL"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000000"
+        android:background="@drawable/ic_registrar"
+        android:id="@+id/btnRegistrar"></Button>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#000000"
+        android:background="@drawable/ic_consultar"
+        android:id="@+id/btnConsultar"></Button>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#000000"
+        android:background="@drawable/ic_sentencias"
+        android:id="@+id/btnSentencias"></Button>
+
+
+</LinearLayout>
